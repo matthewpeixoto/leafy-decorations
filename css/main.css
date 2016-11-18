@@ -27,19 +27,17 @@ html {
 }
 
 .nav a:hover {
-  background:
-    url("../images/leaf-icon.svg") center center / contain no-repeat, #fff;
+  background: url("../images/leaf-icon.svg") .75em center / 48px auto no-repeat #fff;
   color: #145b1d;
-
 }
 
 .banner {
-  padding-top: 66.55%;
-  background: url("../images/banner.jpg") top
+  background: url("../images/banner.jpg") center bottom / cover no-repeat;
 }
 
 .banner-content {
-
+  padding-top: 20em;
+  background: url("../images/two-leaves.svg") center left / 100px auto no-repeat;
 }
 
 @media only screen and (min-width: 60em) {
