@@ -35,11 +35,11 @@ html {
   background:
     linear-gradient(to top, rgba(16, 52, 41, .8), rgba(16, 52, 41, 0)) no-repeat center bottom / 100% 50%,
     url("../images/banner.jpg") center bottom / cover no-repeat;
-  border-bottom: #2d5a4d;
+  border-bottom: 3px solid #2d5a4d;
 }
 
 .banner-content {
-  background: url("../images/two-leaves.svg") .75em 11.25em / 100px auto no-repeat;
+  background: url("../images/two-leaves.svg") .75em 180px / 100px auto no-repeat;
   padding-top: 300px;
 }
 
