@@ -5,6 +5,8 @@ html {
 
 .masthead {
   background: url("../images/leaf-bg.svg") left top / 64px auto #588477;
+  border-top: 3px solid #2d5a4d;
+  border-bottom: 3px solid #2d5a4d;
 }
 
 .logo {
@@ -25,11 +27,15 @@ html {
 }
 
 .nav a:hover {
+  background:
+    url("../images/leaf-icon.svg") center center / contain no-repeat, #fff;
+  color: #145b1d;
 
 }
 
 .banner {
-  background: url("../images/banner.jpg")
+  padding-top: 66.55%;
+  background: url("../images/banner.jpg") top
 }
 
 .banner-content {
