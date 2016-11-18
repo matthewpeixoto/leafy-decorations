@@ -32,12 +32,15 @@ html {
 }
 
 .banner {
-  background: url("../images/banner.jpg") center bottom / cover no-repeat;
+  background:
+    linear-gradient(to top, rgba(16, 52, 41, .8), rgba(16, 52, 41, 0)) no-repeat center bottom / 100% 50%,
+    url("../images/banner.jpg") center bottom / cover no-repeat;
+  border-bottom: #2d5a4d;
 }
 
 .banner-content {
-  padding-top: 20em;
-  background: url("../images/two-leaves.svg") center left / 100px auto no-repeat;
+  background: url("../images/two-leaves.svg") .75em 11.25em / 100px auto no-repeat;
+  padding-top: 300px;
 }
 
 @media only screen and (min-width: 60em) {
